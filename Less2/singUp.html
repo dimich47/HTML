@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SingUp</title>
+    <link rel="stylesheet" href="CSS/style3.css">
+</head>
+<body>
+<form>
+    <a class="logo" href="1.html">
+        <img src="IMG/img1.jpg" height="100" alt="IMG">
+    </a>
+
+    <label for="user">
+        Username
+        <input id="user" type="text" autofocus maxlength="20"  placeholder="Username" required>
+    </label>
+
+    <label for="mail">
+        Email address
+        <input id="mail" type="email" placeholder="123@mai.ru"  required>
+    </label>
+
+    <label for="pass">
+        Password
+        <input id="pass" type="password" maxlength="20"  required>
+    </label>
+
+    <label for="age">
+        Выберите год рождения
+        <input id="age" type="number" min="1985" max="2010" ster="1" value="1985">
+    </label>
+
+    <label >
+        Выберите месяц рождения
+        <select name="month">
+            <option value="1">январь</option>
+            <option value="2">февраль</option>
+            <option value="3">март</option>
+            <option value="4">апрель</option>
+            <option value="5">май</option>
+            <option value="6">июнь</option>
+            <option value="7">июль</option>
+            <option value="8">август</option>
+            <option value="9">сентябрь</option>
+            <option value="10" selected>октябрь</option>
+            <option value="11">ноябрь</option>
+            <option value="12">декабрь</option>
+        </select>
+    </label>
+
+    <label>
+        Ранее пользовались нашим сервисом?
+        <input  type="radio" name="1" value="1" required>
+        Да
+        <input  type="radio"  name="1" value="2" required>
+        Нет
+    </label>
+
+    <label for="code">
+        Введите код проверки
+        <input id="code" type="text" maxlength="6" required>
+    </label>
+
+    <label>
+        Код проверки
+        <img src="IMG/code.PNG" alt="code">
+    </label>
+
+    <label>
+        <input   class="q" type="checkbox" checked value="1">
+        Хочу получать новости от ресурса
+    </label>
+
+    <input class="but1" type="image" src="IMG/singupfor.jpg" alt="SingUpFor">
+</form>
+</body>
+</html>

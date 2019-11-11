@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+.navi{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    height: 200px;
+}

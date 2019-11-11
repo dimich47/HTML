@@ -1,0 +1,60 @@
+body{
+    background-image: url(../img/fone.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav img{
+    height: 200px;
+    display: block;
+    padding-left: 100px;
+
+}
+
+nav li {
+    list-style-type: none; /*маркеры списка off*/
+    display: inline-block; /*блочно-строчный*/
+    padding: 10px;
+
+}
+div{
+    background: aliceblue;
+    height: 250px;
+}
+
+div.st h3{
+    margin-left: 10px;
+}
+
+div.st img{
+    height: 40px;
+    display: block;
+    margin: 10px;
+    border: 1px solid silver;
+}
+div.st h4{
+    background: greenyellow;
+    display: inline-block;
+    margin: 10px;
+}
+div.st h6{
+
+    display: inline-block;
+    margin: 10px;
+}
+.link{
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: aquamarine;
+    padding: 10px 10px;
+    text-decoration: #cccccc;
+    margin: 20px 20px 20px 10px;
+}
+p{
+    margin-left: 40px;
+    width: 500px;
+}

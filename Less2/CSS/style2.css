@@ -1,0 +1,15 @@
+.logo img{
+    height: 100px;
+}
+.but1{
+    width: 20%;
+    height: 20%;
+}
+label{
+    height: 50px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
